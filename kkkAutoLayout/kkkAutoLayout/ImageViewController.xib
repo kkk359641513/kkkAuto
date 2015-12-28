@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ImageViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fengjing.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="qu7-K7-csu">
+                    <rect key="frame" x="20" y="102" width="80" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="agI-Yz-dB3"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fengjing.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="9GZ-um-VJR">
+                    <rect key="frame" x="120" y="102" width="80" height="80"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fengjing.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="xDK-G8-SJ8">
+                    <rect key="frame" x="220" y="102" width="80" height="80"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h5B-FB-fK5">
+                    <rect key="frame" x="100" y="102" width="20" height="80"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Byp-ks-pfh">
+                    <rect key="frame" x="200" y="102" width="20" height="80"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vYg-uC-6EQ">
+                    <rect key="frame" x="300" y="102" width="20" height="80"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ezv-L7-UvE">
+                    <rect key="frame" x="0.0" y="102" width="20" height="80"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="20" id="W2n-Xq-ll6"/>
+                        <constraint firstAttribute="height" constant="80" id="yIO-l2-eEY"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="h5B-FB-fK5" firstAttribute="height" secondItem="Ezv-L7-UvE" secondAttribute="height" id="0Jo-cg-JK0"/>
+                <constraint firstAttribute="trailing" secondItem="vYg-uC-6EQ" secondAttribute="trailing" id="2C3-u2-jzw"/>
+                <constraint firstItem="Byp-ks-pfh" firstAttribute="width" secondItem="Ezv-L7-UvE" secondAttribute="width" id="2iA-0O-xTu"/>
+                <constraint firstItem="xDK-G8-SJ8" firstAttribute="top" secondItem="Ezv-L7-UvE" secondAttribute="top" id="32d-lk-mKs"/>
+                <constraint firstItem="xDK-G8-SJ8" firstAttribute="leading" secondItem="Byp-ks-pfh" secondAttribute="trailing" id="9OS-QU-ZdE"/>
+                <constraint firstItem="h5B-FB-fK5" firstAttribute="leading" secondItem="qu7-K7-csu" secondAttribute="trailing" id="Dxi-CK-aI1"/>
+                <constraint firstItem="xDK-G8-SJ8" firstAttribute="width" secondItem="qu7-K7-csu" secondAttribute="width" id="E6p-IU-cO9"/>
+                <constraint firstItem="Byp-ks-pfh" firstAttribute="top" secondItem="Ezv-L7-UvE" secondAttribute="top" id="Iev-qW-MyG"/>
+                <constraint firstItem="h5B-FB-fK5" firstAttribute="top" secondItem="Ezv-L7-UvE" secondAttribute="top" id="Jt8-16-uJJ"/>
+                <constraint firstItem="Byp-ks-pfh" firstAttribute="height" secondItem="Ezv-L7-UvE" secondAttribute="height" id="LSF-IH-04Z"/>
+                <constraint firstItem="vYg-uC-6EQ" firstAttribute="top" secondItem="Ezv-L7-UvE" secondAttribute="top" id="LjW-Pl-RsD"/>
+                <constraint firstItem="Ezv-L7-UvE" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="MOr-WM-aCh"/>
+                <constraint firstItem="Ezv-L7-UvE" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="102" id="O5b-GG-36d"/>
+                <constraint firstItem="h5B-FB-fK5" firstAttribute="width" secondItem="Ezv-L7-UvE" secondAttribute="width" id="Pwy-hh-xaQ"/>
+                <constraint firstItem="9GZ-um-VJR" firstAttribute="leading" secondItem="h5B-FB-fK5" secondAttribute="trailing" id="Q3M-VP-sOr"/>
+                <constraint firstItem="9GZ-um-VJR" firstAttribute="leading" secondItem="h5B-FB-fK5" secondAttribute="trailing" id="QhS-Pa-q5n"/>
+                <constraint firstItem="xDK-G8-SJ8" firstAttribute="height" secondItem="Ezv-L7-UvE" secondAttribute="height" id="ReR-l4-zfE"/>
+                <constraint firstItem="Byp-ks-pfh" firstAttribute="leading" secondItem="9GZ-um-VJR" secondAttribute="trailing" id="SxP-PA-oKc"/>
+                <constraint firstItem="vYg-uC-6EQ" firstAttribute="height" secondItem="Ezv-L7-UvE" secondAttribute="height" id="T0b-8m-1ZU"/>
+                <constraint firstItem="qu7-K7-csu" firstAttribute="top" secondItem="Ezv-L7-UvE" secondAttribute="top" id="Uer-KW-BFl"/>
+                <constraint firstItem="h5B-FB-fK5" firstAttribute="leading" secondItem="qu7-K7-csu" secondAttribute="trailing" id="aF1-U6-8Pe"/>
+                <constraint firstItem="9GZ-um-VJR" firstAttribute="height" secondItem="Ezv-L7-UvE" secondAttribute="height" id="eHl-Fn-Za2"/>
+                <constraint firstItem="xDK-G8-SJ8" firstAttribute="leading" secondItem="Byp-ks-pfh" secondAttribute="trailing" id="h9s-5g-0bi"/>
+                <constraint firstItem="Byp-ks-pfh" firstAttribute="leading" secondItem="9GZ-um-VJR" secondAttribute="trailing" id="kwO-m9-FlY"/>
+                <constraint firstItem="9GZ-um-VJR" firstAttribute="width" secondItem="qu7-K7-csu" secondAttribute="width" id="nUy-91-PK9"/>
+                <constraint firstItem="vYg-uC-6EQ" firstAttribute="leading" secondItem="xDK-G8-SJ8" secondAttribute="trailing" id="o2u-Gl-Jzc"/>
+                <constraint firstItem="vYg-uC-6EQ" firstAttribute="width" secondItem="Ezv-L7-UvE" secondAttribute="width" id="oOx-JM-ZTF"/>
+                <constraint firstItem="9GZ-um-VJR" firstAttribute="top" secondItem="Ezv-L7-UvE" secondAttribute="top" id="sfJ-lu-l7G"/>
+                <constraint firstItem="qu7-K7-csu" firstAttribute="height" secondItem="Ezv-L7-UvE" secondAttribute="height" id="tMi-fG-9IM"/>
+                <constraint firstItem="vYg-uC-6EQ" firstAttribute="leading" secondItem="xDK-G8-SJ8" secondAttribute="trailing" id="uLo-Mh-alA"/>
+                <constraint firstItem="qu7-K7-csu" firstAttribute="leading" secondItem="Ezv-L7-UvE" secondAttribute="trailing" id="zDo-u2-7YA"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="242"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="fengjing.jpeg" width="1080" height="552"/>
+    </resources>
+</document>

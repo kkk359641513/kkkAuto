@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63C3C6F91C27EF3B009F7C59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C3C6F81C27EF3B009F7C59 /* main.m */; };
+		63C3C6FC1C27EF3B009F7C59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C3C6FB1C27EF3B009F7C59 /* AppDelegate.m */; };
+		63C3C7021C27EF3B009F7C59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63C3C7001C27EF3B009F7C59 /* Main.storyboard */; };
+		63C3C7041C27EF3B009F7C59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63C3C7031C27EF3B009F7C59 /* Assets.xcassets */; };
+		63C3C7071C27EF3B009F7C59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63C3C7051C27EF3B009F7C59 /* LaunchScreen.storyboard */; };
+		63C3C7101C27F02E009F7C59 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C3C70F1C27F02E009F7C59 /* RootViewController.m */; };
+		63C3C7171C27F29E009F7C59 /* StackViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C3C7151C27F29E009F7C59 /* StackViewViewController.m */; };
+		63C3C7181C27F29E009F7C59 /* StackViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63C3C7161C27F29E009F7C59 /* StackViewViewController.xib */; };
+		63DC4B341C28E1790014B96F /* fengjing.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 63DC4B331C28E1790014B96F /* fengjing.jpeg */; };
+		63E321951C2B7CB800579A35 /* ASpectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E321931C2B7CB800579A35 /* ASpectViewController.m */; };
+		63E321961C2B7CB800579A35 /* ASpectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63E321941C2B7CB800579A35 /* ASpectViewController.xib */; };
+		63E3219A1C2B852200579A35 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E321981C2B852200579A35 /* ImageViewController.m */; };
+		63E3219B1C2B852200579A35 /* ImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63E321991C2B852200579A35 /* ImageViewController.xib */; };
+		63E6226C1C2A2E27001DE900 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E6226A1C2A2E27001DE900 /* TableViewController.m */; };
+		63E6226D1C2A2E27001DE900 /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63E6226B1C2A2E27001DE900 /* TableViewController.xib */; };
+		63E622711C2A2E94001DE900 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E6226F1C2A2E94001DE900 /* TableViewCell.m */; };
+		63E622721C2A2E94001DE900 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63E622701C2A2E94001DE900 /* TableViewCell.xib */; };
+		63E6227B1C2A79FB001DE900 /* HeightAutoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E622791C2A79FB001DE900 /* HeightAutoViewController.m */; };
+		63E6227C1C2A79FB001DE900 /* HeightAutoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63E6227A1C2A79FB001DE900 /* HeightAutoViewController.xib */; };
+		63E622801C2A7AA2001DE900 /* HeightAutoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E6227E1C2A7AA2001DE900 /* HeightAutoTableViewCell.m */; };
+		63E622811C2A7AA2001DE900 /* HeightAutoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63E6227F1C2A7AA2001DE900 /* HeightAutoTableViewCell.xib */; };
+		63E622851C2A83C2001DE900 /* ScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E622831C2A83C2001DE900 /* ScrollViewController.m */; };
+		63E622861C2A83C2001DE900 /* ScrollViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63E622841C2A83C2001DE900 /* ScrollViewController.xib */; };
+		63E622921C2A8463001DE900 /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E6228A1C2A8463001DE900 /* ALView+PureLayout.m */; };
+		63E622931C2A8463001DE900 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E6228C1C2A8463001DE900 /* NSArray+PureLayout.m */; };
+		63E622941C2A8463001DE900 /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E6228E1C2A8463001DE900 /* NSLayoutConstraint+PureLayout.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		63C3C6F41C27EF3B009F7C59 /* kkkAutoLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kkkAutoLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63C3C6F81C27EF3B009F7C59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		63C3C6FA1C27EF3B009F7C59 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		63C3C6FB1C27EF3B009F7C59 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		63C3C7011C27EF3B009F7C59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63C3C7031C27EF3B009F7C59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63C3C7061C27EF3B009F7C59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63C3C7081C27EF3B009F7C59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63C3C70E1C27F02E009F7C59 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		63C3C70F1C27F02E009F7C59 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		63C3C7141C27F29E009F7C59 /* StackViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StackViewViewController.h; sourceTree = "<group>"; };
+		63C3C7151C27F29E009F7C59 /* StackViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StackViewViewController.m; sourceTree = "<group>"; };
+		63C3C7161C27F29E009F7C59 /* StackViewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StackViewViewController.xib; sourceTree = "<group>"; };
+		63DC4B331C28E1790014B96F /* fengjing.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fengjing.jpeg; sourceTree = "<group>"; };
+		63E321921C2B7CB800579A35 /* ASpectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASpectViewController.h; sourceTree = "<group>"; };
+		63E321931C2B7CB800579A35 /* ASpectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASpectViewController.m; sourceTree = "<group>"; };
+		63E321941C2B7CB800579A35 /* ASpectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ASpectViewController.xib; sourceTree = "<group>"; };
+		63E321971C2B852200579A35 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		63E321981C2B852200579A35 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		63E321991C2B852200579A35 /* ImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageViewController.xib; sourceTree = "<group>"; };
+		63E622691C2A2E27001DE900 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		63E6226A1C2A2E27001DE900 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		63E6226B1C2A2E27001DE900 /* TableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewController.xib; sourceTree = "<group>"; };
+		63E6226E1C2A2E94001DE900 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		63E6226F1C2A2E94001DE900 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		63E622701C2A2E94001DE900 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		63E622781C2A79FB001DE900 /* HeightAutoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeightAutoViewController.h; sourceTree = "<group>"; };
+		63E622791C2A79FB001DE900 /* HeightAutoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeightAutoViewController.m; sourceTree = "<group>"; };
+		63E6227A1C2A79FB001DE900 /* HeightAutoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeightAutoViewController.xib; sourceTree = "<group>"; };
+		63E6227D1C2A7AA2001DE900 /* HeightAutoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeightAutoTableViewCell.h; sourceTree = "<group>"; };
+		63E6227E1C2A7AA2001DE900 /* HeightAutoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeightAutoTableViewCell.m; sourceTree = "<group>"; };
+		63E6227F1C2A7AA2001DE900 /* HeightAutoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeightAutoTableViewCell.xib; sourceTree = "<group>"; };
+		63E622821C2A83C2001DE900 /* ScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewController.h; sourceTree = "<group>"; };
+		63E622831C2A83C2001DE900 /* ScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewController.m; sourceTree = "<group>"; };
+		63E622841C2A83C2001DE900 /* ScrollViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScrollViewController.xib; sourceTree = "<group>"; };
+		63E622891C2A8463001DE900 /* ALView+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALView+PureLayout.h"; sourceTree = "<group>"; };
+		63E6228A1C2A8463001DE900 /* ALView+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALView+PureLayout.m"; sourceTree = "<group>"; };
+		63E6228B1C2A8463001DE900 /* NSArray+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+PureLayout.h"; sourceTree = "<group>"; };
+		63E6228C1C2A8463001DE900 /* NSArray+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+PureLayout.m"; sourceTree = "<group>"; };
+		63E6228D1C2A8463001DE900 /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
+		63E6228E1C2A8463001DE900 /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
+		63E6228F1C2A8463001DE900 /* PureLayout+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PureLayout+Internal.h"; sourceTree = "<group>"; };
+		63E622901C2A8463001DE900 /* PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayout.h; sourceTree = "<group>"; };
+		63E622911C2A8463001DE900 /* PureLayoutDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayoutDefines.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63C3C6F11C27EF3B009F7C59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63C3C6EB1C27EF3B009F7C59 = {
+			isa = PBXGroup;
+			children = (
+				63C3C6F61C27EF3B009F7C59 /* kkkAutoLayout */,
+				63C3C6F51C27EF3B009F7C59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63C3C6F51C27EF3B009F7C59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63C3C6F41C27EF3B009F7C59 /* kkkAutoLayout.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63C3C6F61C27EF3B009F7C59 /* kkkAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				63E321911C2B7CA300579A35 /* 等比例缩放 */,
+				63E622881C2A8463001DE900 /* PureLayout */,
+				63E622871C2A83C7001DE900 /* ScrollView布局 */,
+				63E622771C2A7924001DE900 /* TableViewCell自适应 */,
+				63E622761C2A7903001DE900 /* TableViewCell布局 */,
+				63E622751C2A786C001DE900 /* 设置图片与间距 */,
+				63DC4B331C28E1790014B96F /* fengjing.jpeg */,
+				63C3C6FA1C27EF3B009F7C59 /* AppDelegate.h */,
+				63C3C6FB1C27EF3B009F7C59 /* AppDelegate.m */,
+				63C3C70E1C27F02E009F7C59 /* RootViewController.h */,
+				63C3C70F1C27F02E009F7C59 /* RootViewController.m */,
+				63C3C7001C27EF3B009F7C59 /* Main.storyboard */,
+				63C3C7031C27EF3B009F7C59 /* Assets.xcassets */,
+				63C3C7051C27EF3B009F7C59 /* LaunchScreen.storyboard */,
+				63C3C7081C27EF3B009F7C59 /* Info.plist */,
+				63C3C6F71C27EF3B009F7C59 /* Supporting Files */,
+				63E321971C2B852200579A35 /* ImageViewController.h */,
+				63E321981C2B852200579A35 /* ImageViewController.m */,
+				63E321991C2B852200579A35 /* ImageViewController.xib */,
+			);
+			path = kkkAutoLayout;
+			sourceTree = "<group>";
+		};
+		63C3C6F71C27EF3B009F7C59 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63C3C6F81C27EF3B009F7C59 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63E321911C2B7CA300579A35 /* 等比例缩放 */ = {
+			isa = PBXGroup;
+			children = (
+				63E321921C2B7CB800579A35 /* ASpectViewController.h */,
+				63E321931C2B7CB800579A35 /* ASpectViewController.m */,
+				63E321941C2B7CB800579A35 /* ASpectViewController.xib */,
+			);
+			name = "等比例缩放";
+			sourceTree = "<group>";
+		};
+		63E622751C2A786C001DE900 /* 设置图片与间距 */ = {
+			isa = PBXGroup;
+			children = (
+				63C3C7141C27F29E009F7C59 /* StackViewViewController.h */,
+				63C3C7151C27F29E009F7C59 /* StackViewViewController.m */,
+				63C3C7161C27F29E009F7C59 /* StackViewViewController.xib */,
+			);
+			name = "设置图片与间距";
+			sourceTree = "<group>";
+		};
+		63E622761C2A7903001DE900 /* TableViewCell布局 */ = {
+			isa = PBXGroup;
+			children = (
+				63E622691C2A2E27001DE900 /* TableViewController.h */,
+				63E6226A1C2A2E27001DE900 /* TableViewController.m */,
+				63E6226B1C2A2E27001DE900 /* TableViewController.xib */,
+				63E6226E1C2A2E94001DE900 /* TableViewCell.h */,
+				63E6226F1C2A2E94001DE900 /* TableViewCell.m */,
+				63E622701C2A2E94001DE900 /* TableViewCell.xib */,
+			);
+			name = "TableViewCell布局";
+			sourceTree = "<group>";
+		};
+		63E622771C2A7924001DE900 /* TableViewCell自适应 */ = {
+			isa = PBXGroup;
+			children = (
+				63E622781C2A79FB001DE900 /* HeightAutoViewController.h */,
+				63E622791C2A79FB001DE900 /* HeightAutoViewController.m */,
+				63E6227A1C2A79FB001DE900 /* HeightAutoViewController.xib */,
+				63E6227D1C2A7AA2001DE900 /* HeightAutoTableViewCell.h */,
+				63E6227E1C2A7AA2001DE900 /* HeightAutoTableViewCell.m */,
+				63E6227F1C2A7AA2001DE900 /* HeightAutoTableViewCell.xib */,
+			);
+			name = "TableViewCell自适应";
+			sourceTree = "<group>";
+		};
+		63E622871C2A83C7001DE900 /* ScrollView布局 */ = {
+			isa = PBXGroup;
+			children = (
+				63E622821C2A83C2001DE900 /* ScrollViewController.h */,
+				63E622831C2A83C2001DE900 /* ScrollViewController.m */,
+				63E622841C2A83C2001DE900 /* ScrollViewController.xib */,
+			);
+			name = "ScrollView布局";
+			sourceTree = "<group>";
+		};
+		63E622881C2A8463001DE900 /* PureLayout */ = {
+			isa = PBXGroup;
+			children = (
+				63E622891C2A8463001DE900 /* ALView+PureLayout.h */,
+				63E6228A1C2A8463001DE900 /* ALView+PureLayout.m */,
+				63E6228B1C2A8463001DE900 /* NSArray+PureLayout.h */,
+				63E6228C1C2A8463001DE900 /* NSArray+PureLayout.m */,
+				63E6228D1C2A8463001DE900 /* NSLayoutConstraint+PureLayout.h */,
+				63E6228E1C2A8463001DE900 /* NSLayoutConstraint+PureLayout.m */,
+				63E6228F1C2A8463001DE900 /* PureLayout+Internal.h */,
+				63E622901C2A8463001DE900 /* PureLayout.h */,
+				63E622911C2A8463001DE900 /* PureLayoutDefines.h */,
+			);
+			path = PureLayout;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63C3C6F31C27EF3B009F7C59 /* kkkAutoLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63C3C70B1C27EF3B009F7C59 /* Build configuration list for PBXNativeTarget "kkkAutoLayout" */;
+			buildPhases = (
+				63C3C6F01C27EF3B009F7C59 /* Sources */,
+				63C3C6F11C27EF3B009F7C59 /* Frameworks */,
+				63C3C6F21C27EF3B009F7C59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kkkAutoLayout;
+			productName = kkkAutoLayout;
+			productReference = 63C3C6F41C27EF3B009F7C59 /* kkkAutoLayout.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63C3C6EC1C27EF3B009F7C59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = kkk;
+				TargetAttributes = {
+					63C3C6F31C27EF3B009F7C59 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 63C3C6EF1C27EF3B009F7C59 /* Build configuration list for PBXProject "kkkAutoLayout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63C3C6EB1C27EF3B009F7C59;
+			productRefGroup = 63C3C6F51C27EF3B009F7C59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63C3C6F31C27EF3B009F7C59 /* kkkAutoLayout */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63C3C6F21C27EF3B009F7C59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63C3C7181C27F29E009F7C59 /* StackViewViewController.xib in Resources */,
+				63DC4B341C28E1790014B96F /* fengjing.jpeg in Resources */,
+				63E622721C2A2E94001DE900 /* TableViewCell.xib in Resources */,
+				63C3C7071C27EF3B009F7C59 /* LaunchScreen.storyboard in Resources */,
+				63E622811C2A7AA2001DE900 /* HeightAutoTableViewCell.xib in Resources */,
+				63E6226D1C2A2E27001DE900 /* TableViewController.xib in Resources */,
+				63C3C7041C27EF3B009F7C59 /* Assets.xcassets in Resources */,
+				63E321961C2B7CB800579A35 /* ASpectViewController.xib in Resources */,
+				63E622861C2A83C2001DE900 /* ScrollViewController.xib in Resources */,
+				63E6227C1C2A79FB001DE900 /* HeightAutoViewController.xib in Resources */,
+				63E3219B1C2B852200579A35 /* ImageViewController.xib in Resources */,
+				63C3C7021C27EF3B009F7C59 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63C3C6F01C27EF3B009F7C59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63C3C7171C27F29E009F7C59 /* StackViewViewController.m in Sources */,
+				63E622801C2A7AA2001DE900 /* HeightAutoTableViewCell.m in Sources */,
+				63E6227B1C2A79FB001DE900 /* HeightAutoViewController.m in Sources */,
+				63E622921C2A8463001DE900 /* ALView+PureLayout.m in Sources */,
+				63E622851C2A83C2001DE900 /* ScrollViewController.m in Sources */,
+				63E321951C2B7CB800579A35 /* ASpectViewController.m in Sources */,
+				63E622711C2A2E94001DE900 /* TableViewCell.m in Sources */,
+				63E622931C2A8463001DE900 /* NSArray+PureLayout.m in Sources */,
+				63C3C6FC1C27EF3B009F7C59 /* AppDelegate.m in Sources */,
+				63C3C6F91C27EF3B009F7C59 /* main.m in Sources */,
+				63E6226C1C2A2E27001DE900 /* TableViewController.m in Sources */,
+				63C3C7101C27F02E009F7C59 /* RootViewController.m in Sources */,
+				63E3219A1C2B852200579A35 /* ImageViewController.m in Sources */,
+				63E622941C2A8463001DE900 /* NSLayoutConstraint+PureLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		63C3C7001C27EF3B009F7C59 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63C3C7011C27EF3B009F7C59 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63C3C7051C27EF3B009F7C59 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63C3C7061C27EF3B009F7C59 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63C3C7091C27EF3B009F7C59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		63C3C70A1C27EF3B009F7C59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63C3C70C1C27EF3B009F7C59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = kkkAutoLayout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kkk.kkkAutoLayout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		63C3C70D1C27EF3B009F7C59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = kkkAutoLayout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kkk.kkkAutoLayout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63C3C6EF1C27EF3B009F7C59 /* Build configuration list for PBXProject "kkkAutoLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63C3C7091C27EF3B009F7C59 /* Debug */,
+				63C3C70A1C27EF3B009F7C59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63C3C70B1C27EF3B009F7C59 /* Build configuration list for PBXNativeTarget "kkkAutoLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63C3C70C1C27EF3B009F7C59 /* Debug */,
+				63C3C70D1C27EF3B009F7C59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63C3C6EC1C27EF3B009F7C59 /* Project object */;
+}
